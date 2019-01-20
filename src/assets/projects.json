@@ -1,7 +1,7 @@
 {
 	"projects": [{
 		"name": "Portfolio",
-		"languages": "Javascript, Angular7",
+		"languages": "Javascript, Angular 7",
 		"description":
 			"Re-write Personal webpage/portfolio using Angular7 framework.",
 		"github": "https://github.com/jlxc106/ng-jayclim",
@@ -36,7 +36,7 @@
 			"description":
 				"Fun game of <a href='https://en.wikipedia.org/wiki/Reversi' target='_blank'>Othello/Reversi</a>. Implemented a React frontend and NodeJS backend with socket.io for realtime communication",
 			"github": "https://github.com/jlxc106/c5.17_hackathon/",
-			"live_page": "https://1v1me.io"
+			"live_page": "http://1v1me.io"
         },
 		{
 			"name": "Film Funnel",

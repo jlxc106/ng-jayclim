@@ -36,11 +36,35 @@
 </nav>
 <div class="page-container">
   <div class="page">
-      <h1 class="page-header">Projects</h1>
-      <div id="contain-projects">
-          <div class="card-columns project-card-container">
+    <h1 class="page-header">Projects</h1>
+    <div id="contain-projects">
+      <div class="card-columns project-card-container">
+        <div class="card project-card" *ngFor="let project of arrayOfProjects">
+          <div class="card-title">
+            <h2>{{ project.name }}</h2>
           </div>
+          <div class="card-body">
+            <p class="card-languages">
+              {{project.languages}}
+            </p>
+            <p class="card-description" [innerHTML]="project.description">
+            </p>
+            <p class="card-links">
+              <div class="card-contain-github" *ngIf="project.github">
+                <a href="{{project.github}}" target="_blank">
+                    <i class='fa fa-github' aria-hidden='true'>github</i>
+                </a>
+              </div>
+              <div class="card-contain-live" *ngIf="project.live_page">
+                  <a href="{{project.live_page}}" target="_blank">
+                      <i class='fa fa-paper-plane-o' aria-hidden='true'>live page</i>
+                  </a>
+              </div>
+            
+          </div>
+        </div>
       </div>
-      <hr>
+    </div>
+    <hr />
   </div>
 </div>
