@@ -1,0 +1,82 @@
+{
+	"projects": [{
+		"name": "Portfolio",
+		"languages": "Javascript, Angular 7",
+		"description":
+			"Re-write Personal webpage/portfolio using Angular7 framework.",
+		"github": "https://github.com/jlxc106/ng-jayclim",
+		"live_page": "https://www.jayclim.com/"
+	},
+		{
+			"name": "Batsu",
+			"languages": "Javascript, React/Redux, PHP, MYSQL, NodeJS/Express",
+			"description":
+				"Web application designed to create & manage events and keep your friends accountable for meet-ups.",
+			"github": "https://github.com/jlxc106/batsu_app",
+			"live_page": "https://www.batsu.io"
+		},
+		{
+			"name": "Site Logs",
+			"languages": "Javascript, LAMP, CronJob, PHP, MongoDB, NodeJS/Express, Shell Script, Materialize.css",
+			"description":
+				"Web application displaying graphs/table of apache logs of portfolio server",
+			"github": "https://github.com/jlxc106/site_analytics",
+			"live_page": "https://sitelogs.herokuapp.com/"
+		},
+		{
+			"name":"Ecommerce",
+			"languages":"Javascript, Node.js Express, MongoDB, Materialize.css, Bcrypt, Stripe API, React/Redux, Passport.js",
+			"description":"E-commerce web application that utilizes stripe API to handle transactions.",
+			"github":"https://github.com/jlxc106/ecommerce",
+			"live_page":"https://store.jayclim.com"
+		},
+		{
+			"name": "Othello/Reversi",
+			"languages": "Javascript, MongoDB, Express/NodeJS, React, Socket.io",
+			"description":
+				"Fun game of <a href='https://en.wikipedia.org/wiki/Reversi' target='_blank'>Othello/Reversi</a>. Implemented a React frontend and NodeJS backend with socket.io for realtime communication",
+			"github": "https://github.com/jlxc106/c5.17_hackathon/",
+			"live_page": "http://1v1me.io"
+        },
+		{
+			"name": "Film Funnel",
+			"languages": "JavaScript/JQuery",
+			"description":
+				"Fun creation from a hackathon that demonstrates our mastery of API's.",
+			"github": "https://github.com/jlxc106/C5.17_hackathon2",
+			"live_page": "https://jlxc106.github.io/C5.17_hackathon2/"
+        },
+        {
+			"name": "NBA Playoffs",
+			"languages": "React, Javascript",
+			"description":
+				"Fun project using NBA's official API to keep track of NBA playoffs.",
+			"github": "https://github.com/jlxc106/nba_playoffs",
+			"live_page": null
+        },
+        {
+			"name": "Calculator",
+			"languages": "Javascript/jQuery",
+			"description":
+				"Simple calculator app that demonstrates solid understanding of logic",
+			"github": "https://github.com/jlxc106/calculator",
+			"live_page": "https://jlxc106.github.io/calculator/"
+        },        
+        {
+			"name": "Student Grade Table",
+			"languages": "Javascript/JQuery",
+			"description":
+				"Introduction to jQuery's AJAX. Web application containing table of student grades.",
+			"github": "https://github.com/jlxc106/SGT",
+			"live_page": null
+		},
+		{
+			"name": "Project Euler",
+			"languages": "Python/C++",
+			"description":
+				"Array of brain teasers with varying difficulty",
+			"github": "https://github.com/jlxc106/ProjectEuler",
+			"live_page": null
+		}
+	]
+}
