@@ -1,0 +1,46 @@
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button
+        type="button"
+        class="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1"
+      >
+        <span class="sr-only">Toggle navigation</span> Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand page-scroll banner-text" [routerLink]="['/']"
+        >Jay Lim</a
+      >
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a class="page-scroll banner-text" [routerLink]="['/about']">About</a>
+        </li>
+        <li>
+          <a class="page-scroll banner-text" [routerLink]="['/projects']"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a class="page-scroll banner-text" [routerLink]="['/contact']"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="page-container">
+  <div class="page">
+      <h1 class="page-header">Projects</h1>
+      <div id="contain-projects">
+          <div class="card-columns project-card-container">
+          </div>
+      </div>
+      <hr>
+  </div>
+</div>

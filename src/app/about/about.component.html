@@ -1,0 +1,75 @@
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button
+        type="button"
+        class="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1"
+      >
+        <span class="sr-only">Toggle navigation</span> Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand page-scroll banner-text" [routerLink]="['/']"
+        >Jay Lim</a
+      >
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a class="page-scroll banner-text" [routerLink]="['/about']">About</a>
+        </li>
+        <li>
+          <a class="page-scroll banner-text" [routerLink]="['/projects']"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a class="page-scroll banner-text" [routerLink]="['/contact']"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="page-container">
+  <div class="page">
+    <h1 class="page-header">About</h1>
+    <div id="about-container">
+      <div class="contain-img">
+        <img src="assets/jaylim.jpg" alt="unable to locate image" />
+      </div>
+      <div class="contain-about-txt">
+        <p>
+          Hello, my name is Jay Lim. I am currently located in Irvine, CA. I am
+          a Chemical Engineering B.S. graduate from UCSD with an
+          <a
+            target="_blank"
+            href="
+              http://jacobsschool.ucsd.edu/undergrad/undergrad_adm/adm_freshman/faqs.sfe#miscDoubleMajor
+            "
+            >unofficial minor</a
+          >
+          in Computer Science. I had the opportunity to study subject matters
+          that I found interesting, such as Advanced Data Structures and
+          Algorithms.
+        </p>
+        <p>
+          Since my graduation, I decided to further my knowledge of programming
+          and web development by attending LearningFuze. Currently I am actively
+          working towards a career in back-end web development while working on
+          <a [routerLink]="['/projects']">projects</a>.
+        </p>
+        <p>
+          Take a look at my
+          <a target="_blank" href="assets/RESUME.pdf">résumé</a> and if you have
+          any questions, please feel free to
+          <a [routerLink]="['/contact']">contact me</a>.
+        </p>
+      </div>
+    </div>
+    <hr />
+  </div>
+</div>

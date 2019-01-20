@@ -1,0 +1,70 @@
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button
+        type="button"
+        class="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1"
+      >
+        <span class="sr-only">Toggle navigation</span> Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand page-scroll banner-text" [routerLink]="['/']"
+        >Jay Lim</a
+      >
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a class="page-scroll banner-text" [routerLink]="['/about']">About</a>
+        </li>
+        <li>
+          <a class="page-scroll banner-text" [routerLink]="['/projects']"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a class="page-scroll banner-text" [routerLink]="['/contact']"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="page-container">
+  <div class="page">
+      <h1 class="page-header">Contact</h1>
+      <div id="contact-container">
+          <div id="resume-container">
+              <div class="img-contain" id="resume-img">
+                  <a class="contact-link" target="_blank" href="assets/RESUME.pdf">
+                      <img src="assets/pdf_file.png" alt="Resume">
+                  </a>
+              </div>
+              <div class="txt-contain" id="resume-txt">
+                  <a class="contact-link" target="_blank" href="assets/RESUME.pdf">Resume</a>
+              </div>
+          </div>
+          <div id="github-container">
+              <div class="img-contain" id="github-img">
+                  <a class="contact-link" target="_blank" href="https://github.com/jlxc106">
+                      <img src="assets/github.png" alt="Github">
+                  </a>
+              </div>
+              <div class="txt-contain" id="github-txt">
+                  <a class="contact-link" target="_blank" href="https://github.com/jlxc106">Github</a>
+              </div>
+          </div>
+          <hr>
+          <div id="phone-email-container">
+              <p> Cell Phone: (310) 617-4644 </p>
+              <p>Email: jaylim106@gmail.com</p>
+          </div>
+
+      </div>
+      <hr>
+  </div>
+</div>
