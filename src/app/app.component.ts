@@ -12,7 +12,7 @@ export class AppComponent implements OnInit{
   constructor(){}
 
   ngOnInit() {
-    particlesJS.load("particles-container", "particles.json");
+    particlesJS.load("particles-container", "assets/particles.json");
   }
 
 }
