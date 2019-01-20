@@ -178,7 +178,7 @@ var AppComponent = /** @class */ (function () {
         this.title = 'ng-jayclim';
     }
     AppComponent.prototype.ngOnInit = function () {
-        particlesJS.load("particles-container", "particles.json");
+        particlesJS.load("particles-container", "assets/particles.json");
     };
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
