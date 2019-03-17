@@ -119,6 +119,9 @@ var routes = [
     {
         path: "contact",
         component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_5__["ContactComponent"]
+    },
+    {
+        path: "**", redirectTo: '/'
     }
 ];
 var AppRoutingModule = /** @class */ (function () {
