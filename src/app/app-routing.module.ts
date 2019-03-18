@@ -8,10 +8,6 @@ import { ProjectsComponent } from "./projects/projects.component";
 
 const routes: Routes = [
   {
-    path: "",
-    component: LandingComponent
-  },
-  {
     path: "about",
     component: AboutComponent
   },
@@ -24,7 +20,12 @@ const routes: Routes = [
     component: ContactComponent
   },
   {
-    path: "**", redirectTo: '/'
+    path: "",
+    component: LandingComponent
+  },
+  {
+    path: "**",
+    redirectTo: "/"
   }
 ];
 
